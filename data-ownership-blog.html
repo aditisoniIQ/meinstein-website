@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <title>mEinstein: The community Driven AI</title>
+
+   <link rel="icon" href="assets/images/fav.png" type="image/gif" sizes="20x20">
+
+
+   
+   <link rel="stylesheet" href="assets/css/plugins.css">
+
+   
+   <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+
+	
+<div class="cursor d-none d-lg-block"></div>
+
+
+
+
+
+<div class="preloader">
+	<div class="spinner-wrap">
+		 <div class="preloader-logo">
+			  <img src="assets/images/powerai-symbol.png" alt="" class="img-fluid">
+		 </div>
+		 <div class="spinner"></div> 
+	</div>
+</div>
+
+
+
+   
+   <a href="#" id="scroll-top" class="back-to-top-btn"><i class="bi bi-arrow-up"></i></a>
+   
+
+   
+
+
+   <div class="site-wrapper">
+
+      <header>
+
+         
+         <div class="header-top z-index-one">
+            <div class="container">
+               <div class="row align-items-center justify-content-between gy-4">
+                  <div class="col-lg-5">
+                     <p class="text_color_light_white d-flex align-items-center header-top-text">
+                        <span class="text_color_white">
+                           <svg class="me-1" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M10 1C5.03702 1 1 5.03702 1 10C1 14.963 5.03702 19 10 19C14.963 19 19 14.963 19 10C19 5.03702 14.963 1 10 1ZM10 17.7442C5.7294 17.7442 2.25581 14.2706 2.25581 10C2.25581 5.7294 5.7294 2.25581 10 2.25581C14.2706 2.25581 17.7442 5.7294 17.7442 10C17.7442 14.2706 14.2706 17.7442 10 17.7442ZM12.9554 12.0679C13.2007 12.3132 13.2007 12.7109 12.9554 12.9562C12.8331 13.0784 12.6724 13.1404 12.5116 13.1404C12.3509 13.1404 12.1901 13.0793 12.0679 12.9562L9.55625 10.4446C9.43821 10.3265 9.37209 10.1666 9.37209 10.0008V5.81477C9.37209 5.46817 9.65339 5.18686 10 5.18686C10.3466 5.18686 10.6279 5.46817 10.6279 5.81477V9.74042L12.9554 12.0679Z"
+                                 fill="currentColor" />
+                           </svg>
+                           Take control of your data with mEinstein. 
+                     </p>
+                  </div>
+                  <div class="col-lg-7 d-none d-lg-block">
+                     <div class="header-top-contact d-flex align-items-center justify-content-lg-end">
+                        <a class="text_color_white header-top-address header-top-item"
+                           href="mailto:contact@meinstein.ai">contact@meinstein.ai</a>
+                        <a class="text_color_white header-top-address header-top-item" href="tel:3929299999">+3929 299
+                           999</a>
+                        <ul class="custom-ul social-list d-flex align-items-center flex-wrap header-top-item">
+                           <li>
+                              <a href="#">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M10.9494 8.93333V15.5H8.01602V8.93333H6.16602V6.21667H8.01602V4.15C8.01602 1.8 9.41601 0.5 11.566 0.5C12.591 0.5 13.666 0.683334 13.666 0.683334V2.99167H12.4827C11.316 2.99167 10.9494 3.71667 10.9494 4.45833V6.21667H13.5577L13.141 8.93333H10.9494Z"
+                                       fill="currentColor" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M16.9509 4.9078C16.8926 3.7078 16.6176 2.64114 15.7426 1.76614C14.8676 0.891143 13.8009 0.616146 12.6009 0.557813C11.3593 0.491146 7.65091 0.491146 6.41758 0.557813C5.21758 0.616146 4.15926 0.891143 3.27592 1.76614C2.39259 2.64114 2.12591 3.7078 2.06758 4.9078C2.00091 6.14947 2.00091 9.85781 2.06758 11.0995C2.12591 12.2995 2.40092 13.3661 3.27592 14.2411C4.15926 15.1161 5.21758 15.3911 6.41758 15.4495C7.65925 15.5161 11.3676 15.5161 12.6009 15.4495C13.8009 15.3911 14.8676 15.1161 15.7426 14.2411C16.6176 13.3661 16.8926 12.2995 16.9509 11.0995C17.0176 9.85781 17.0176 6.14948 16.9509 4.91614V4.9078ZM9.50092 11.9578C7.31759 11.9578 5.54259 10.1828 5.54259 7.99947C5.54259 5.81614 7.31759 4.04114 9.50092 4.04114C11.6843 4.04114 13.4593 5.81614 13.4593 7.99947C13.4593 10.1828 11.6843 11.9578 9.50092 11.9578ZM14.1009 4.24947C13.6426 4.24947 13.2676 3.87447 13.2676 3.41614C13.2676 2.95781 13.6342 2.58281 14.1009 2.58281C14.5592 2.58281 14.9342 2.95781 14.9342 3.41614C14.9342 3.87447 14.5592 4.24947 14.1009 4.24947ZM12.2093 7.99947C12.2093 9.49114 10.9926 10.7078 9.50092 10.7078C8.00926 10.7078 6.79259 9.49114 6.79259 7.99947C6.79259 6.50781 8.00926 5.29114 9.50092 5.29114C10.9926 5.29114 12.2093 6.50781 12.2093 7.99947Z"
+                                       fill="currentColor" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M5.36723 15.5006H2.2089V6.02557H5.36723V15.5006ZM5.6839 2.34224C5.6839 1.34224 4.89224 0.533904 3.89224 0.50057C2.87557 0.47557 2.02557 1.27557 2.00057 2.29223C1.97557 3.3089 2.77557 4.1589 3.79223 4.1839C4.82557 4.19223 5.66724 3.37558 5.6839 2.34224ZM16.9589 9.77557C16.9589 6.82557 15.0506 5.92557 13.4256 5.92557C12.2839 5.89223 11.2089 6.45057 10.5839 7.40057V6.0339H7.5339V15.5089H10.6922V10.5922C10.6922 10.5422 10.6922 10.4922 10.6922 10.4422C10.6922 10.4422 10.6922 10.4422 10.6922 10.4339C10.6256 9.42557 11.3922 8.55057 12.4006 8.4839C13.2256 8.4839 13.8506 9.01724 13.8506 10.5172V15.5089H17.0089L16.9672 9.7839L16.9589 9.77557Z"
+                                       fill="white" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M9.25521 0.666016H9.71192C11.0693 0.704753 12.4202 1.06771 13.5993 1.74447C15.0511 2.56283 16.2448 3.82878 16.9801 5.32422C17.5072 6.38932 17.7913 7.56869 17.8327 8.75521V9.21289C17.7959 10.4404 17.4967 11.6611 16.9388 12.7565C16.3962 13.8239 15.6247 14.7751 14.6862 15.5195C13.6979 16.3092 12.5277 16.8711 11.2904 17.139C10.7725 17.2572 10.2422 17.3105 9.71224 17.3327H9.28581C7.84147 17.292 6.40853 16.8773 5.17513 16.123C3.71257 15.2337 2.5332 13.8867 1.85254 12.3158C1.42871 11.3483 1.2041 10.2988 1.16602 9.24447V8.78483C1.20345 7.4681 1.54818 6.16016 2.18359 5.00553C2.96908 3.56999 4.18424 2.37467 5.63411 1.61556C6.74772 1.02669 7.99772 0.709635 9.25521 0.666016ZM4.70866 4.09928C5.95573 5.91406 7.2028 7.72852 8.44922 9.54329C7.20313 10.9925 5.95573 12.4408 4.70996 13.8903C4.94987 13.8916 5.1901 13.89 5.43001 13.8913C5.47689 13.8831 5.54232 13.9124 5.5752 13.8662C6.65885 12.6077 7.74154 11.3486 8.82454 10.0895C9.69662 11.3561 10.5654 12.6253 11.4385 13.8913C12.389 13.89 13.3395 13.8913 14.2897 13.8906C12.9987 12.0065 11.6992 10.1276 10.4118 8.24121C11.6038 6.86361 12.7887 5.48014 13.9772 4.09961C13.6953 4.09896 13.4137 4.09896 13.1318 4.09961C12.1022 5.30013 11.0664 6.49577 10.0394 7.69824C9.20801 6.50293 8.38932 5.29818 7.5625 4.09961C6.61133 4.09896 5.66016 4.09928 4.70866 4.09928Z"
+                                       fill="white" />
+                                    <path
+                                       d="M5.85742 4.73438C6.29004 4.73438 6.72266 4.7347 7.15527 4.73438C9.14811 7.58301 11.1393 10.4329 13.1315 13.2822C12.6986 13.2829 12.2656 13.2829 11.8327 13.2822C9.84147 10.4323 7.84928 7.58366 5.85742 4.73438Z"
+                                       fill="white" />
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      	<div class="menu-area">
+            <div class="container">
+               <div class="row align-items-center position-relative">
+                  <div class="col-lg-2 hamburger-menu position-relative">
+                     <div class="menu-logo-wrap pb-60" >
+                        <a href="index.html"><img style="height: 90px;" class="logo" src="assets/images/logo.svg" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10">
+                     <div class="nav-wrap d-flex justify-content-between align-items-center">
+                        <div class="mainmenu text-right">
+                           <ul class="home-menu">                    
+                        
+                              <li class="has-child-menu"><a href="javascript:void(0)">AI Features</a>
+                                 <ul>
+                                    <li><a href="index.html">Conversational AI</a></li>
+                                    <li><a href="finance.html">Personal Finances</a></li>
+                                    <li><a href="travel.html">Travel & Entertainment</a></li>
+                                    <li><a href="prsoanl-care.html">Personal Care</a></li>
+                                    <li><a href="family.html">Family Care</a></li>
+                                    <li><a href="car.html">Home & Car Maintenance </a></li>
+                                    <li><a href="data_market.html">Data Marketplace</a></li>
+                                 </ul>
+                              </li>
+                              <li ><a  href="how-it-work.html">How It Works</a>
+                                 
+                              </li>
+                              <li ><a  href="community.html">Community Driven AI</a>
+                                 </li>
+                                 <li>
+                                 <a  href="data-ownership.html">Data Ownership</a>
+                                 
+                              </li>
+                              <li >
+                                 
+                              </li>
+                              
+                           </ul>
+                           <div class="menu-btn-wrap flex-shrink-0 d-lg-none pb-5 pt-3 ps-4">
+                              
+                              <a class="common-btn border-style border-style-transparent" href="http://marketplace.meinstein.ai/"  target="_blank" style="border-radius: 8px;">Marketplace</a>
+                           </div>
+                        </div>
+                        <div class="menu-btn-wrap flex-shrink-0 d-none d-lg-block" style="position: relative; top:-18px">
+                           
+                           <a class="common-btn border-style border-style-transparent" href="http://marketplace.meinstein.ai/"  target="_blank" style="border-radius: 8px;">Marketplace</a>
+                        </div>
+                     </div>
+                  </div>
+   
+   
+                  
+               </div>
+            </div>
+         </div>
+
+         
+
+
+      </header>
+
+      
+
+    
+      
+
+
+      
+
+      <section class="blog-details-area bg_color_deep_blue pt-120 pb-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                 
+                  <div class="blog-details-info-wrap mt-4 pt-60">
+                    
+                     <h2 class="blog-details-title details-title-gap text_color_white" style="color: #ff6605;"> "Reclaiming Data Ownership: How mEinstein Empowers You to Take Control"</h2>
+                     <p class="text_color_light_white details-section-gap"><b class="blog-details-sub-title details-title-gap">Introduction:</b> In today's digital age, data has become the new oil, driving innovations and shaping the future of technology. Yet, despite generating vast amounts of valuable data, individuals rarely see the benefits. It's time to change that. Enter mEinstein—a revolutionary platform that puts data ownership back into your hands.</p>
+                     <p class="text_color_light_white"> <b class="blog-details-sub-title details-title-gap mt-4">The Problem with Current Data Practices:</b> The current digital landscape is dominated by tech giants like Google, Amazon, and Facebook. These companies collect and monetize vast amounts of user data, often without explicit consent or adequate compensation. Users generate this data through their online activities, interactions, and preferences, but they rarely see any direct benefits</p>
+                     
+                     <ul>
+                        <li>
+                        <h2 class="blog-details-sub-title details-title-gap">Lack of Control and Ownership:</h2>
+                       
+                        <p class="text_color_light_white">Users have little to no control over how their data is collected, stored, and used.</p>
+                    <p class="text_color_light_white">Data is often treated as a commodity, exploited by corporations for profit without user consent</p></li>
+                        <ul>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">Privacy Concerns:</h2>
+                           <p class="text_color_light_white">Centralized data storage systems are vulnerable to breaches and unauthorized access.</p>
+                           <p class="text_color_light_white">High-profile data breaches have exposed sensitive user information, eroding trust in digital platforms</p>
+                        </li>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">Inequitable Data Economy</h2>
+                           <p class="text_color_light_white">The current model benefits corporations at the expense of users who generate the data.</p>
+                           <p class="text_color_light_white">Users receive minimal to no compensation for their valuable contributions to the digital economy</p>
+                        </li>
+                    </ul>
+                       <p class="text_color_light_white mt-5"> <b class="blog-details-sub-title details-title-gap ">mEinstein's Vision:</b> mEinstein aims to disrupt this status quo by placing data ownership and control back in the hands of users. As a device-native platform built on advanced AI and Web3 technologies, mEinstein ensures that users can securely manage, monetize, and benefit from theirpersonal data</p>
+                       <ul>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">User-Centric Data Ownership:</h2>
+                           <p class="text_color_light_white">mEinstein enables users to retain full ownership of their data, ensuring that it remains under their control</p>
+                           <p class="text_color_light_white">Users decide how and when their data is shared or sold, empowering them with agency over their digital footprint.</p>
+                        </li>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">Enhanced Privacy and Security</h2>
+                           <p class="text_color_light_white">Utilizing blockchain technology, mEinstein provides robust security measures to protect user data.</p>
+                           <p class="text_color_light_white">Data is stored and processed on user devices, minimizing the risks associated with
+                            centralized data storage.</p>
+                        </li>
+                        <li>
+                            <h2 class="blog-details-sub-title details-title-gap">Fair Data Monetization</h2>
+                            <p class="text_color_light_white">mEinstein's Data Marketplace allows users to tokenize and sell their data securely</p>
+                            <p class="text_color_light_white">Users can earn a continuous income stream by sharing their data with interested buyers on their terms</p>
+                         </li>
+                         </ul>
+                         <p class="text_color_light_white mt-5"> <b class="blog-details-sub-title details-title-gap">How mEinstein Works:</b> mEinstein's innovative approach combines advanced AI with blockchain technology to create a secure and user-centric data ecosystem</p>
+                       <ul>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">Data Tokenization and Marketplace</h2>
+                           <p class="text_color_light_white">Users can tokenize their data, converting it into digital assets that can be traded onmEinstein's decentralized marketplace</p>
+                           <p class="text_color_light_white">Buyers, such as advertisers, researchers, and businesses, can purchase data directly from users, ensuring fair compensation.</p>
+                        </li>
+                        <li>
+                           <h2 class="blog-details-sub-title details-title-gap">Personalized AI Assistance</h2>
+                           <p class="text_color_light_white">mEinstein offers a personal AI assistant that learns from user data to provide tailored recommendations and insights.</p>
+                           <p class="text_color_light_white">The AI adapts to individual preferences, optimizing daily activities and enhancingdecision-making.</p>
+                        </li>
+                        <li>
+                            <h2 class="blog-details-sub-title details-title-gap">Device-Native Platform</h2>
+                            <p class="text_color_light_white">By operating directly on user devices, mEinstein ensures data remains secure and private</p>
+                            <p class="text_color_light_white">This approach eliminates the need for cloud storage, reducing costs and enhancingscalability</p>
+                         </li> 
+                    </ul>
+                    <p class="text_color_light_white mt-5"> <b class="blog-details-sub-title details-title-gap">Real-World Impact:</b> mEinstein is already making a difference for users who have embraced its innovative platform</p>
+                    <ul>
+                     <li>
+                        <h2 class="blog-details-sub-title details-title-gap">User Testimonials</h2>
+                        <p class="text_color_light_white">Share stories of users who have successfully monetized their data and benefited from personalized AI services</p>
+                        <p class="text_color_light_white">Highlight the positive impact on their daily lives, financial wellbeing, and overall digital experience.</p>
+                     </li>
+                     <li>
+                        <h2 class="blog-details-sub-title details-title-gap">Case Studies</h2>
+                        <p class="text_color_light_white">Present case studies showcasing how different industries have leveraged mEinstein's data marketplace to gain valuable insights.</p>
+                        <p class="text_color_light_white">Discuss the mutual benefits for both data buyers and sellers in this new, equitable data economy.</p>
+                     </li>
+                    
+                 </ul>
+                 <p class="text_color_light_white mt-5"> <b class="blog-details-sub-title details-title-gap">Conclusion:</b> With mEinstein, the power of data is back where it belongs—in your hands. Join us in revolutionizing the digital landscape and reclaim your data today. Experience the future of data ownership, privacy, and personalized AI with mEinstein, and take control of your digital destiny</p>
+                 <p class="text_color_light_white">By choosing mEinstein, you are not just embracing a platform; you are joining a movement towards a fairer, more transparent, and user-centric digital ecosystem. Empower yourself with mEinstein and unlock the true value of your data</p>
+
+                        </ul>
+
+                        <ul class="custom-ul mt-5 tag-list blog-details-tag-list d-flex flex-wrap align-items-center">
+                           <li><a href="#">#AI Assistant App</a></li>
+                           <li><a href="#">#Ai personal assistant app</a></li>
+                           <li><a href="#">#Best ai personal assistant app</a></li>
+                           <li><a href="#">#Personalized AI Assistant app</a></li>
+                           <li><a href="#">#Personal assistant ai app</a></li>
+                           <li><a href="#">#AI virtual assistant</a></li>
+                           <li><a href="#">#Ai Personal Assistant</a></li>
+                          
+                        </ul>
+                     
+                     
+                     
+                     
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </section>
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+
+      
+
+      <section class="footer-area bg_color_black pt-60 ">
+         <div class="container">
+            <div class="row justify-content-between footer-widget-wrapper">
+               <div class="col-lg-3">
+                  <div class="footer-widget">
+                     <div class="footer-desc">
+                        <img src="assets/images/logo.svg" alt="">
+                        
+                        <ul class="custom-ul mt-3 social-list d-flex align-items-center flex-wrap">
+                           <li>
+                              <a href="#">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M29.3333 16.001C29.3333 22.6543 24.4533 28.1743 18.08 29.1743V20.001H21.3333L21.9333 16.001H18.08V13.4943C18.08 12.4409 18.6 11.4143 20.2533 11.4143H21.9333V8.25429C21.9333 8.25429 20.4133 7.98763 18.9467 7.98763C15.9067 7.98763 13.9066 9.70761 13.9066 13.0543V15.9876H10.68V19.9876H13.9066V29.1609C7.53331 28.1609 2.65332 22.641 2.65332 15.9876C2.65332 8.62763 8.62666 2.6543 15.9867 2.6543C23.3467 2.6543 29.32 8.62763 29.32 15.9876" fill="currentColor"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M27.92 11.0537C27.8266 9.13365 27.3866 7.427 25.9866 6.027C24.5866 4.627 22.88 4.18701 20.96 4.09367C18.9733 3.98701 13.0399 3.98701 11.0666 4.09367C9.14661 4.18701 7.45329 4.627 6.03996 6.027C4.62663 7.427 4.19994 9.13365 4.10661 11.0537C3.99994 13.0403 3.99994 18.9737 4.10661 20.9603C4.19994 22.8803 4.63996 24.587 6.03996 25.987C7.45329 27.387 9.14661 27.827 11.0666 27.9203C13.0533 28.027 18.9866 28.027 20.96 27.9203C22.88 27.827 24.5866 27.387 25.9866 25.987C27.3866 24.587 27.8266 22.8803 27.92 20.9603C28.0266 18.9737 28.0266 13.0403 27.92 11.067V11.0537ZM16 22.3337C12.5066 22.3337 9.66663 19.4937 9.66663 16.0003C9.66663 12.507 12.5066 9.667 16 9.667C19.4933 9.667 22.3333 12.507 22.3333 16.0003C22.3333 19.4937 19.4933 22.3337 16 22.3337ZM23.3599 10.0003C22.6266 10.0003 22.0266 9.40033 22.0266 8.667C22.0266 7.93366 22.6133 7.33366 23.3599 7.33366C24.0933 7.33366 24.6933 7.93366 24.6933 8.667C24.6933 9.40033 24.0933 10.0003 23.3599 10.0003ZM20.3333 16.0003C20.3333 18.387 18.3866 20.3337 16 20.3337C13.6133 20.3337 11.6666 18.387 11.6666 16.0003C11.6666 13.6137 13.6133 11.667 16 11.667C18.3866 11.667 20.3333 13.6137 20.3333 16.0003Z" fill="currentColor"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.2668 8.34603C23.5334 7.55936 21.6801 6.98602 19.7601 6.66602C19.5201 7.07935 19.2534 7.63935 19.0667 8.07935C17.0134 7.78601 14.9868 7.78601 12.9601 8.07935C12.7734 7.63935 12.4934 7.07935 12.2668 6.66602C10.3334 6.98602 8.4801 7.55936 6.7601 8.34603C3.26676 13.4394 2.32009 18.4127 2.80009 23.3193C5.1201 24.986 7.3601 25.9993 9.5601 26.666C10.0934 25.946 10.5868 25.1727 11.0001 24.3593C10.2001 24.066 9.4401 23.706 8.7201 23.2793C8.90676 23.146 9.09344 22.9994 9.26677 22.8527C13.6534 24.8394 18.4268 24.8394 22.7601 22.8527C22.9468 22.9994 23.1201 23.146 23.3068 23.2793C22.5868 23.706 21.8267 24.066 21.0267 24.3593C21.4401 25.1727 21.9334 25.946 22.4668 26.666C24.6668 25.9993 26.9201 24.986 29.2268 23.3193C29.8134 17.6393 28.3068 12.706 25.2934 8.34603H25.2668ZM11.5734 20.226C10.2534 20.226 9.17343 19.026 9.17343 17.5594C9.17343 16.0927 10.2267 14.8927 11.5734 14.8927C12.9201 14.8927 14.0001 16.0927 13.9734 17.5594C13.9734 19.026 12.9067 20.226 11.5734 20.226ZM20.4268 20.226C19.1068 20.226 18.0267 19.026 18.0267 17.5594C18.0267 16.0927 19.0801 14.8927 20.4268 14.8927C21.7734 14.8927 22.8534 16.0927 22.8267 17.5594C22.8267 19.026 21.7734 20.226 20.4268 20.226Z" fill="currentColor"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M26.5868 10.6527C26.6001 10.8794 26.6001 11.1194 26.6001 11.3594C26.6001 18.4794 21.1067 26.6794 11.0534 26.6794C7.96007 26.6794 5.08008 25.7994 2.66675 24.266C3.10675 24.3194 3.53342 24.3327 3.98676 24.3327C6.54676 24.3327 8.89342 23.4794 10.7734 22.0394C8.37342 21.986 6.36008 20.4394 5.66675 18.306C6.00008 18.3594 6.34675 18.386 6.69342 18.386C7.18675 18.386 7.68009 18.3194 8.13342 18.1994C5.62676 17.6927 3.74674 15.5327 3.74674 12.9194V12.8527C4.48008 13.2527 5.32009 13.506 6.21342 13.5327C4.74675 12.5594 3.77342 10.9194 3.77342 9.05269C3.77342 8.05269 4.04008 7.1327 4.52008 6.3327C7.21341 9.59937 11.2534 11.7327 15.7867 11.9727C15.7067 11.5727 15.6534 11.1594 15.6534 10.746C15.6534 7.7727 18.0934 5.35938 21.1201 5.35938C22.6934 5.35938 24.1201 6.01269 25.1068 7.05269C26.3468 6.82603 27.5201 6.37271 28.5734 5.75938C28.1734 7.01271 27.3068 8.06603 26.1734 8.71936C27.2668 8.59936 28.3334 8.30603 29.3201 7.8927C28.5734 8.95937 27.6401 9.90603 26.5734 10.6794L26.5868 10.6527Z" fill="currentColor"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.38659 28.0009H4.33327V12.8409H9.38659V28.0009ZM9.89327 6.94759C9.89327 5.34759 8.62661 4.05425 7.02661 4.00091C5.39994 3.96091 4.03994 5.2409 3.99994 6.86757C3.95994 8.49424 5.23993 9.85424 6.86659 9.89424C8.51993 9.90758 9.8666 8.60092 9.89327 6.94759ZM27.9333 18.8409C27.9333 14.1209 24.8799 12.6809 22.2799 12.6809C20.4533 12.6276 18.7333 13.5209 17.7333 15.0409V12.8542H12.8533V28.0143H17.9066V20.1476C17.9066 20.0676 17.9066 19.9876 17.9066 19.9076C17.9066 19.9076 17.9066 19.9076 17.9066 19.8942C17.7999 18.2809 19.0266 16.8809 20.6399 16.7742C21.9599 16.7742 22.9599 17.6276 22.9599 20.0276V28.0143H28.0133L27.9466 18.8542L27.9333 18.8409Z" fill="currentColor"/>
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <div class="footer-widget d-lg-flex justify-content-center">
+                     <div class="footer-link-wrap">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="custom-ul footer-link">
+                           <li><a href="about.html">About Us</a></li>
+                           
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="team.html">Team</a></li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6">
+                  <div class="footer-widget">
+                     <h3 class="footer-title">Your Digital Value is Priceless. Protect It with mEinstein.</h3>
+                     
+                     <p class="text_color_light_white mt-3">Empowering your digital independence with AI-driven insights and personalized solutions. Your data, your control.</p>
+						<a class="vid common-btn border-style mt-3 border-style-transparent" href="https://apps.apple.com/in/app/meinstein-ai/id6446581528">
+							Download App
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
+								<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M44.52734,34.75c-1.07812,2.39453 -1.59766,3.46484 -2.98437,5.57813c-1.94141,2.95313 -4.67969,6.64063 -8.0625,6.66406c-3.01172,0.02734 -3.78906,-1.96484 -7.87891,-1.92969c-4.08594,0.01953 -4.9375,1.96875 -7.95312,1.9375c-3.38672,-0.03125 -5.97656,-3.35156 -7.91797,-6.30078c-5.42969,-8.26953 -6.00391,-17.96484 -2.64844,-23.12109c2.375,-3.65625 6.12891,-5.80469 9.65625,-5.80469c3.59375,0 5.85156,1.97266 8.82031,1.97266c2.88281,0 4.63672,-1.97656 8.79297,-1.97656c3.14063,0 6.46094,1.71094 8.83594,4.66406c-7.76562,4.25781 -6.50391,15.34766 1.33984,18.31641zM31.19531,8.46875c1.51172,-1.94141 2.66016,-4.67969 2.24219,-7.46875c-2.46484,0.16797 -5.34766,1.74219 -7.03125,3.78125c-1.52734,1.85938 -2.79297,4.61719 -2.30078,7.28516c2.69141,0.08594 5.47656,-1.51953 7.08984,-3.59766z"></path></g></g>
+								</svg>
+						</a>
+					
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="copy-right-wrap d-flex justify-content-between flex-column flex-lg-row">
+                     <p class="text_color_light_white">
+                      
+                         © 2024 mEinstein. All Rights Reserved. 
+                     </p>
+                     <ul class="custom-ul footer-menu d-flex flex-wrap align-items-center">
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy policy</a></li>
+                        
+                     </ul>
+                     <div class="select1_wrapper copy-right-language">
+                        <div class="select1_inner">
+                           <svg class="language-icon position-absolute top-50 translate-middle-y" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.516 2 12 2ZM20.4243 11.2322H16.8403C16.7103 8.77418 15.9641 6.27618 14.6841 3.98218C17.8041 5.02818 20.1163 7.84218 20.4243 11.2322ZM12.6323 3.57007C14.2163 5.93607 15.1482 8.61422 15.3022 11.2302H8.70215C8.85615 8.61422 9.78612 5.93607 11.3701 3.57007C11.5781 3.55407 11.788 3.53809 12 3.53809C12.212 3.53809 12.4223 3.55607 12.6323 3.57007ZM9.31836 3.98218C8.03836 6.27618 7.29211 8.77418 7.16211 11.2322H3.57812C3.88612 7.84218 6.19836 5.02818 9.31836 3.98218ZM3.57812 12.77H7.16211C7.29211 15.226 8.03836 17.724 9.31836 20.02C6.19836 18.972 3.88612 16.158 3.57812 12.77ZM11.3701 20.4302C9.78612 18.0622 8.85415 15.386 8.70215 12.77H15.3022C15.1482 15.388 14.2183 18.0642 12.6323 20.4302C12.4243 20.4462 12.214 20.4622 12.002 20.4622C11.79 20.4622 11.5781 20.4462 11.3701 20.4302ZM14.6841 20.0181C15.9641 17.7241 16.7103 15.2261 16.8403 12.7681H20.4243C20.1163 16.1581 17.8041 18.9721 14.6841 20.0181Z" fill="white" fill-opacity="0.7"/>
+                           </svg>
+                           <select class="select2 select">
+                              <option value="0">English</option>
+                              <option value="1">Italic</option>
+                              <option value="2">Bangla</option>
+                           </select>
+                           <svg class="language-icon-2 position-absolute top-50 translate-middle-y" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 14.7508C11.808 14.7508 11.616 14.6778 11.47 14.5308L7.46999 10.5308C7.17699 10.2378 7.17699 9.76275 7.46999 9.46975C7.76299 9.17675 8.23803 9.17675 8.53103 9.46975L12.001 12.9397L15.471 9.46975C15.764 9.17675 16.239 9.17675 16.532 9.46975C16.825 9.76275 16.825 10.2378 16.532 10.5308L12.532 14.5308C12.384 14.6778 12.192 14.7508 12 14.7508Z" fill="white" fill-opacity="0.7"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      
+      <div class="row p-7 w-100  w-100  d-flex" style="position: fixed; bottom: 10px; z-index:3;" >
+	
+         <div class=" col-lg-3 col-md-6  " id="invite-form">
+            
+            <div class="form-wrap form-wrap-contact w-100 invite-btn " style="padding: 10px;">
+            <a href="" id="close"  class="position-relative text-white d-flex justify-content-end" style="top:-10px">
+               <i class="bi bi-x-lg"></i></a>
+              <form id="form" class="common-form-box" >
+               
+                <h3 class=" text_color_white text-center">Thanks for checking out mEinstein</h3>
+               
+                <p class=" text_color_light_white text-center">Please join for an early invite.</p>
+                
+                <div class="row">
+                  <div class="col-lg-6 ">
+                     <div class="input-group invite">
+                       <label>Country</label>
+                       <input  required type="text" placeholder="Country" class="countryInput2 pt-3">
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="input-group invite">
+                       <label>Zip Code</label>
+                       <input required type="text" maxlength="6"  placeholder="Zip Code" class="zipcodeInput2 pt-3">
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                     <div class="input-group invite">
+                       <label>Email</label>
+                       <input required type="email" placeholder="Email" class="emailInput2 pt-3">
+                     </div>
+                  </div>
+               
+                  <div class="col-lg-12 pt-3">
+                     <div class="form-info-wrap">
+                       <button type="submit" class="common-btn bg_color_orange w-100 d-flex justify-content-center" >Get Your Invitation</button>
+                     </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+         
+         </div>
+         
+       </div>
+
+   </div>
+
+   
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   
+   <script src="assets/js/jquery.mixitup.min.js"></script>
+   
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   
+   <script src="assets/js/odometer.min.js"></script>
+   <script src="assets/js/viewport.jquery.js"></script>
+   
+   <script src="assets/js/jquery.meanmenu.min.js"></script>
+   
+   <script src="assets/js/YouTubePopUp.js"></script>
+   
+   <script src="assets/js/select2.js"></script>
+   
+   <script src="assets/js/gsap.min.js"></script>
+   
+   <script src="assets/js/main.js"></script>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    // Function to handle form submission
+
+    // Event listener for form submission
+    const forms = document.querySelector('#form')
+	const close = document.querySelector('#close')
+	const inviteform = document.querySelector('#invite-form')
+	const secondForm = document.querySelector('#secondform');
+	
+	form.addEventListener('submit',  async function(event) {
+        event.preventDefault(); // Prevents default form submission
+
+		const inviteemailValue = document.querySelector('.emailInput2').value.trim();
+        const invitecountryValue = document.querySelector('.countryInput2').value.trim();
+        const invitezipcodeValue = document.querySelector('.zipcodeInput2').value.trim();
+
+        // console.log(emailValue, countryValue, zipcodeValue);
+		
+
+
+	form={email: inviteemailValue,
+                    country: invitecountryValue,
+                    zipcode: invitezipcodeValue
+}
+
+        try {
+            const resp = await fetch('http://admin.meinstein.ai/user/invite/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+					
+					
+                },
+                body: JSON.stringify(form),
+            });
+
+            const data = await resp.json(); // Assuming response is JSON
+            console.log(data);
+			
+            // Handle success response here, e.g., show success message or update UI
+
+        } catch (error) {
+            console.error('Error:', error);
+            // Handle errors, e.g., show error message or log to console
+        }
+		inviteform.style.display = "none";
+    }
+);
+
+close.addEventListener('click', function(event) {
+	
+        event.preventDefault(); 
+        inviteform.style.display = "none";
+		
+    })
+	window.onbeforeunload = function() {
+		inviteform.style.display = "initial";
+};
+
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/66854ff9eaf3bd8d4d1797ba/1i1sc0q7b';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script--></body>
+
+</html>  
