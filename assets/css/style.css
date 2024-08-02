@@ -2342,6 +2342,11 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   color: var(--color-white);
 }
+.blog-details-info-wrap .blog-details-sub-titles {
+  font-size: 23px;
+  /* font-weight: 500; */
+  color: var(--color-white);
+}
 
 @media only screen and (max-width: 991.98px) {
   .blog-details-info-wrap .blog-details-sub-title {
