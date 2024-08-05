@@ -2338,7 +2338,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .blog-details-info-wrap .blog-details-sub-title {
-  font-size: 32px;
+  /* font-size: 32px; */
   font-weight: 500;
   color: var(--color-white);
 }
